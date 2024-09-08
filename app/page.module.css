@@ -1,0 +1,12 @@
+.page1{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 180vh;
+}
+
+.page{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+

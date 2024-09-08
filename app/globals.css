@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato:wght@400;700&family=Nunito&family=Roboto:wght@300&family=Russo+One&family=Lilita+One&family=Damion&family=Creepster&family=Cormorant+Upright&family=Emblema+One&family=Covered+By+Your+Grace&family=Ewert&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 99px;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

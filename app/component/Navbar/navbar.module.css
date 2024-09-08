@@ -1,0 +1,52 @@
+.nav{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    color: #000;
+    padding: 1rem;
+    z-index: 100;
+}
+
+.scrolled{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav.logo{
+    font-family: lilita one;
+}
+
+.nav ul{
+    margin: auto;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: nunito;
+    padding-top: 0.5rem;
+}
+
+.nav ul li:hover{
+    opacity: 60%;
+}
+
+.active{
+    border-bottom: 2px solid #000000;
+}
+
+.active:hover{
+    opacity: 70%;
+}
+
+.nav span{
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-right: 2rem;
+    display: flex;
+}
+
+.nav span p{
+    font-size: 12px;
+    margin: 0.5rem;
+}

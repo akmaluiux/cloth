@@ -1,0 +1,126 @@
+.container{
+    width: 100vw;
+}
+
+.content{
+    background: url('/image1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 1rem;
+}
+
+.text{
+    margin-left: 4rem;
+}
+
+.content .text h2{
+    font-size: 64px;
+    color: #000;
+}
+
+.content .text p{
+    color: #000;
+    margin: -2rem 0;
+}
+
+.text1{
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+}
+
+.text1 div{
+    cursor: pointer;
+}
+
+.content .text1 p{
+    color: #000;
+    text-align: right;
+}
+
+.content .text1 div{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    background-color: #262734;
+    width: 19rem;
+    font-family: roboto;
+    padding: 5px;
+}
+
+.content1 p{
+    margin: 1rem 3rem;
+    color: #000;
+    font-family: roboto;
+    font-size: 40px;
+}
+
+.content2{
+    margin: 0 5rem;
+    display: flex;
+    gap: 50px;
+}
+
+.tobag{
+    background-color: #e2e2e2;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-family: roboto;
+    margin: 4rem 17.5rem;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tobag:hover{
+    background-color: #fff;
+}
+
+.content2 .desc{
+    margin: 105% 1rem;
+    font-family: nunito;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.content2 .bs1{
+    background: url('/bs1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+}
+
+.content2 .bs2{
+    background: url('/bs2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+}
+
+.content2 .bs3{
+    background: url('/bs3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+}
+
+.content2 .bs4{
+    background: url('/bs4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 412px;
+    width: 400px;
+    height: 600px;
+}
